@@ -22,3 +22,14 @@ jenkins_plugin "copyartifact"
 
 
 jenkins_cli "safe-restart"
+
+
+directory File.join(node[:jenkins][:server][:home], 'jobs', 'metajob') do
+  owner "jenkins"
+  group "jenkins"
+end
+template File.join(node[:jenkins][:server][:home], 'jobs', 'metajob', 'config.xml') do
+  source 'metajob-config.xml'
+  owner "jenkins"
+  group "jenkins"
+end
