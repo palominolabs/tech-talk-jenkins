@@ -1,0 +1,57 @@
+{
+  "sources": {
+    "apt": {
+      "locked_version": "2.3.4"
+    },
+    "java": {
+      "locked_version": "1.17.2"
+    },
+    "jenkins": {
+      "locked_version": "1.2.2"
+    },
+    "chef-ssh": {
+      "locked_version": "0.6.5",
+      "git": "https://github.com/markolson/chef-ssh.git",
+      "ref": "468990595e0040ca21b90ef0e67a35b009e1e743"
+    },
+    "windows": {
+      "locked_version": "1.12.6"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "aws": {
+      "locked_version": "1.0.0"
+    },
+    "runit": {
+      "locked_version": "1.5.8"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "yum": {
+      "locked_version": "3.0.4"
+    },
+    "yum-epel": {
+      "locked_version": "0.2.0"
+    },
+    "apache2": {
+      "locked_version": "1.8.14"
+    },
+    "nginx": {
+      "locked_version": "2.2.0"
+    },
+    "bluepill": {
+      "locked_version": "2.3.1"
+    },
+    "rsyslog": {
+      "locked_version": "1.10.2"
+    },
+    "ohai": {
+      "locked_version": "1.1.12"
+    },
+    "iptables": {
+      "locked_version": "0.12.0"
+    }
+  }
+}
