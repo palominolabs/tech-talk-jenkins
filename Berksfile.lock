@@ -15,7 +15,7 @@
       "ref": "468990595e0040ca21b90ef0e67a35b009e1e743"
     },
     "windows": {
-      "locked_version": "1.12.6"
+      "locked_version": "1.12.8"
     },
     "chef_handler": {
       "locked_version": "1.1.4"
@@ -30,7 +30,7 @@
       "locked_version": "1.4.2"
     },
     "yum": {
-      "locked_version": "3.0.4"
+      "locked_version": "3.0.6"
     },
     "yum-epel": {
       "locked_version": "0.2.0"
@@ -39,7 +39,7 @@
       "locked_version": "1.8.14"
     },
     "nginx": {
-      "locked_version": "2.2.0"
+      "locked_version": "2.2.2"
     },
     "bluepill": {
       "locked_version": "2.3.1"
